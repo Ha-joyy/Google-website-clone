@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <div class="nav_area">
+       <!-- 상단 바 -->
+       <div class="left_top-bar">
+        <!-- 왼쪽 -->
+        <a href="#">Google 정보</a>
+        <a href="#">스토어</a>
+      </div>
+
+      <div class="right_top-bar">
+        <!-- 오른쪽 -->
+        <a href="#">Gmail</a>
+        <a href="#">이미지</a>
+        <a href="#"><img src="../google app.svg" alt="Google App Logo" width="20"></a>
+        <a href="#">로그인</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 
+
+    2025.03.06 하유희
+    
+    로고 img부터 footer 전까지 컨텐츠영역으로 만들어주세요!
+    (div로 한번 감싸주면 좋아요!!)
+
+  -->
+
+  <img src="../google, logo.png" alt="Google Logo">
+
+  <!-- 검색창 -->
+  <div class="search-container">
+      <form action="https://www.google.com/search" method="get">
+          <!-- 돋보기 아이콘 및 텍스트 입력란 -->
+          <div>
+              <a href="#"><img src="../view.png" alt="Search Icon" width="20"></a>
+
+              <!-- 
+
+              2025.03.06 하유희
+              input은 용도에 맞게 type 정해주시면 좋습니다! 
+
+              -->
+              <input type="text">
+          </div>
+
+          <!-- 아이콘들 (입력 도구, 음성 검색, 이미지 검색) -->
+          <div>
+
+            <!-- 
+
+              2025.03.06 하유희
+              여기 width값 나중에 빼주세요 :)
+              css로 충분히 컨트롤 할수 있어욥!!!
+
+            -->
+              <a href="#"><img src="../keyboard.png" alt="key Search Icon" width="20"></a>
+              <a href="#"><img src="../voice.png" alt="voice Search Icon" width="20"></a>
+              <a href="#"><img src="../image.svg" alt="image Search Icon" width="20"></a>
+          </div>
+      </form>
+  </div>
+
+  <!-- 사용용도 모름 -->
+  <div>
+      <a href="#">google 검색</a>
+      <a href="#">i'm feeling lucky</a>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+      <!-- 사용국가 -->
+      <div>대한민국</div>
+
+      <!-- footer 하위 하이퍼링크 왼쪽 -->
+      <div>
+          <a href="#">광고</a>
+          <a href="#">비지니스</a>
+          <a href="#">검색의 원리</a>
+      </div>
+
+      <!-- footer 하위 하이퍼링크 오른쪽 -->
+      <div>
+          <a href="#">개인정보처리방침</a>
+          <a href="#">약관</a>
+          <a href="#">설정</a>
+      </div>
+  </footer>
+</body>
+</html>
