@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-size:14px;
 }
 
 body {
@@ -11,7 +12,48 @@ body {
   background:url(https://lh5.googleusercontent.com/proxy/xvtq6_782kBajCBr0GISHpujOb51XLKUeEOJ2lLPKh12-xNBTCtsoHT14NQcaH9l4JhatcXEMBkqgUeCWhb3XhdLnD1BiNzQ_LVydwg=w3840-h2160-p-k-no-nd-mv) no-repeat center;
   background-size:cover;
 }
-
-*{
-  color:#fff;
+a {
+  text-decoration:none;
 }
+.hidden {
+  border:0;
+  clip:rect(0 0 0 0);
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  width:1px;
+}
+
+/* 상단 네비영역 */
+.nav_wrap .nav_inner {
+  display:flex;align-items:center;justify-content:flex-end;padding:8px;
+}
+.nav_wrap .nav_inner li {margin-left:15px;}
+.nav_wrap .nav_inner a,
+.nav_wrap .nav_inner button {display:block;width:100%;height:100%;font-size:13px;color:#fff;}
+.nav_wrap .nav_inner .nav_txt {padding:14px 4px;}
+.nav_wrap .nav_inner .nav_ico {width:24px;height:24px;background-color:red;}
+.nav_wrap .nav_inner .nav_pro {width:32px;height:32px;position:relative;border-radius:50%;overflow:hidden;}
+.nav_wrap .nav_inner .nav_pro img {display:block;height:100%;position:absolute;top:50%;left:50%;transform: translate(-50%, -50%);}
+
+
+/* 로고영역 */
+.logo_wrap {margin-top:100px;text-align:center;}
+.logo_wrap path {fill:#fff;}
+
+/* 검색영역 */
+.search_wrap {margin-top:38px;text-align:center;}
+.search_wrap .search_inner {position:relative;max-width:800px;margin:auto;width:100%;height:48px;background-color:#fff;border-radius:48px;}
+.search_wrap .search_inner input[type="search"] {padding:0 87px 0 52px;width:100%;height:100%;background:url(/images/camera.svg) no-repeat 16px center;background-size:24px; border:none;border-radius:48px;font-size:16px;}
+.search_wrap .search_inner input[type="search"]:focus {border:none;outline:none;}
+.search_wrap .search_icon_box {position:absolute;top:0;right:0;}
+
+/* 하단 바로가기 영역 */
+.quick_links_wrap {margin-top:16px;}
+.quick_links_inner ul {display:flex;align-items:center;justify-content:center;}
+.quick_links_inner .link_item {max-width:122px;width:100%;}
+.quick_links_inner .link_item .quick_ico {width:48px;height:48px;position:relative;background-color:rgba(168, 211, 170, 1.00);border-radius:50%;}
+.quick_links_inner .link_item img {width:32px;position:absolute;}
+.quick_links_inner .link_item a {color:#fff;}

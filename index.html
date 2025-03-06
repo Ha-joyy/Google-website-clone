@@ -8,11 +8,6 @@
 </head>
 <body>
   <header>
-    <div class="logo_wrap">
-      <h1>
-        <img src="/images/google_logo.svg" alt="구글 로고">
-      </h1>
-    </div>
     <nav class="nav_wrap">
       <ul class="nav_inner">
         <li class="nav_txt">
@@ -33,29 +28,36 @@
         </li>
         <li class="nav_pro">
           <button aria-label="구글 계정 보기" aria-expanded="false">
-            <img src="" alt="내 구글 프로필 이미지">
+            <img src="/images/naver_logo.svg" alt="내 구글 프로필 이미지">
           </button>
         </li>
       </ul>
     </nav>
+    <div class="logo_wrap">
+      <h1>
+        <img src="/images/google_logo.svg" alt="구글 로고">
+      </h1>
+    </div>
   </header>
   <div class="container">
     <div class="content">
       <section class="search_wrap">
         <div class="search_inner">
-          <input type="search">
-          <button title="음성검색">
-            <span class="hidden">음성검색</span>
-          </button>
-          <button title="이미지검색">
-            <span class="hidden">이미지검색</span>
-          </button>
+          <input type="search" placeholder="Google 검색 또는 URL입력">
+          <div class="search_icon_box">
+            <button title="음성검색">
+              <span class="hidden">음성검색</span>
+            </button>
+            <button title="이미지검색">
+              <span class="hidden">이미지검색</span>
+            </button>
+          </div>
         </div>
       </section>
       <section class="quick_links_wrap">
         <div class="quick_links_inner">
           <ul>
-            <li>
+            <li class="link_item">
               <a href="https://www.naver.com/" title="네이버 바로가기" aria-label="네이버 바로가기">
                 <div class="quick_ico" aria-hidden="true">
                   <img src="images/naver_logo.svg">
@@ -63,9 +65,12 @@
                 <div class="quick_tit">
                   <span>네이버</span>
                 </div>
+                <button aria-expanded="false" class="more_btn">
+                  <span class="hidden">네이버 바로가기 추가 작업</span>
+                </button>
               </a>
             </li>
-            <li>
+            <li class="link_item">
               <button aria-expanded="false">
                 <div class="quick_ico" aria-hidden="true">
                   <img src="/images/add.svg">
