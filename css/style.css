@@ -34,8 +34,8 @@ button {padding:0;cursor:pointer;}
 .nav_wrap .nav_inner [class^="nav_"] button {display:block;width:100%;height:100%;font-size:13px;color:#fff;}
 .nav_wrap .nav_inner .nav_txt {padding:5px 6px 4px;}
 .nav_wrap .nav_inner [class^="nav_ico"] {margin-left:0;width:48px;height:48px;background-repeat:no-repeat;background-size:20px;background-position:center;}
-.nav_wrap .nav_inner .nav_ico01 {margin-left:8px;background-image:url(/images/icon_lab.svg);}
-.nav_wrap .nav_inner .nav_ico02 {background-image:url(/images/icon_menu_dots.svg);}
+.nav_wrap .nav_inner .nav_ico01 {margin-left:8px;background-image:url(../images/icon_lab.svg);}
+.nav_wrap .nav_inner .nav_ico02 {background-image:url(../images/icon_menu_dots.svg);}
 .nav_wrap .nav_inner .nav_pro {margin-left:10px;width:32px;height:32px;position:relative;border-radius:50%;overflow:hidden;}
 .nav_wrap .nav_inner .nav_pro img {display:block;height:100%;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);}
 
@@ -45,14 +45,14 @@ button {padding:0;cursor:pointer;}
 /* 검색영역 */
 .search_wrap {margin-top:32px;text-align:center;}
 .search_wrap .search_inner {position:relative;max-width:746px;margin:auto;width:100%;height:48px;background-color:#fff;border-radius:48px;}
-.search_wrap .search_inner input[type="search"] {padding:0 87px 0 52px;width:100%;height:100%;background:url(/images/icon_search.svg) no-repeat 16px center;background-size:17px; border:none;border-radius:48px;font-size:16px;}
+.search_wrap .search_inner input[type="search"] {padding:0 87px 0 52px;width:100%;height:100%;background:url(../images/icon_search.svg) no-repeat 16px center;background-size:17px; border:none;border-radius:48px;font-size:16px;}
 .search_wrap .search_inner input[type="search"]:focus {border:none;outline:none;}
 .search_wrap .search_icon_box {display:flex;align-items:center;width:52px;height:100%;position:absolute;top:0;right:30px;}
 .search_wrap .search_icon_box button {width:26px;height:100%;}
 .search_wrap .search_icon_box [class^="ico_"]{background-repeat:no-repeat;background-position:center;background-size:20px;}
 .search_wrap .search_icon_box [class^="ico_"] + [class^="ico_"] {margin-left:14px;} 
-.search_wrap .search_icon_box .ico_mic {background-image:url(/images/icon_mic.svg);}
-.search_wrap .search_icon_box .ico_img {background-image:url(/images/icon_camera.svg);}
+.search_wrap .search_icon_box .ico_mic {background-image:url(../images/icon_mic.svg);}
+.search_wrap .search_icon_box .ico_img {background-image:url(../images/icon_camera.svg);}
 
 
 /* 하단 바로가기 영역 */
@@ -65,15 +65,15 @@ button {padding:0;cursor:pointer;}
 .quick_links_inner .link_item .quick_ico {margin:16px auto 0;width:48px;height:48px;position:relative;background-color:rgba(168, 211, 170, 1.00);border-radius:50%;}
 .quick_links_inner .link_item .quick_ico img {width:24px;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);}
 .quick_links_inner .link_item .quick_tit {margin-top:6px;padding:0 8px;line-height:32px;}
-.quick_links_inner .link_item .more_btn {display:none;position:absolute;top:2px;right:2px;width:28px;height:28px;background:url(/images/icon_more_vert01.svg) no-repeat center;background-size:20px;z-index:2;}
+.quick_links_inner .link_item .more_btn {display:none;position:absolute;top:2px;right:2px;width:28px;height:28px;background:url(../images/icon_more_vert01.svg) no-repeat center;background-size:20px;z-index:2;}
 .quick_links_inner .link_item .more_btn:hover {background-color:rgba(255, 255, 255, .1);border-radius:50%;}
 .quick_links_inner .link_item:hover .more_btn {display:block;}
 
 /* 하단 footer영역 */
 .footer_wrap {padding:20px;width:100%;position:fixed;left:0;bottom:0;}
 .footer_inner {display:flex;align-items:center;justify-content:space-between;}
-.footer_wrap .footer_inner a {display:block;padding:8px 8px 8px 26px;background:url(/images/icon_link.svg) no-repeat left 7px;background-size:16px;font-size:14px;color:#fff;text-decoration:underline;}
-.footer_wrap .footer_inner .set_btn {width:24px;height:24px;background:url(/images/icon_pencil.svg) no-repeat center;background-size:16px;}
+.footer_wrap .footer_inner a {display:block;padding:8px 8px 8px 26px;background:url(../images/icon_link.svg) no-repeat left 7px;background-size:16px;font-size:14px;color:#fff;text-decoration:underline;}
+.footer_wrap .footer_inner .set_btn {width:24px;height:24px;background:url(../images/icon_pencil.svg) no-repeat center;background-size:16px;}
 
 @media screen and (max-width:746px) {
   .search_wrap {
